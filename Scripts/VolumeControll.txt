@@ -1,0 +1,6 @@
+;This script uses keyboard numpad "+" and "-" for volume controll.
+
+SetKeyDelay, 10, 10, 10
+NumpadAdd::SoundSet,+1
+NumpadSub::SoundSet,-1
+return

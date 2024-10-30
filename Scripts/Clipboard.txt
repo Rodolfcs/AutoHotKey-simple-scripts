@@ -1,0 +1,7 @@
+;This script uses the numpad numbers (1-9, based on your need) as a clipboard.
+
+SetKeyDelay, 10, 10, 10
+Numpad0::Send, email
+Numpad1::Send, password
+Numpad2::Send, something
+return
