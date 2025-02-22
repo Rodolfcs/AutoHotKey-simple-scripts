@@ -1,4 +1,5 @@
 ;This script uses keyboard numpad "+" and "-" for volume controll.
+;Adjust the +/-1 to increase/decrease higher/lower(?) values than 1.
 
 SetKeyDelay, 10, 10, 10
 NumpadAdd::SoundSet,+1
